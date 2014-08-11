@@ -5,7 +5,7 @@ public class FacebookInvite : MonoBehaviour {
 	
 	void Update () {
         if(isTouched()) {
-            FacebookManager.Invite("Play Floppy Clone with me!", "Check out this very addicting mobile game.");
+            FacebookManager.Invite("Play Floppy BunBun with me!", "Check out this very addicting mobile game.");
         }
 	}
 
