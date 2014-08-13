@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{3A360C53-FA95-C0CD-1E88-37209D1C4564}</ProjectGuid>
+	<ProjectGuid>{8D47A296-127C-6194-506F-73A8E507C44B}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Back.cs" />
      <Compile Include="Assets\Facebook\Scripts\AndroidFacebook.cs" />
      <Compile Include="Assets\Facebook\Scripts\AndroidFacebookLoader.cs" />
      <Compile Include="Assets\Facebook\Scripts\CanvasFacebookLoader.cs" />
@@ -91,6 +92,7 @@
      <Compile Include="Assets\GooglePlayGames\PluginVersion.cs" />
      <Compile Include="Assets\Scripts\Bird.cs" />
      <Compile Include="Assets\Scripts\ChartboostConfig.cs" />
+     <Compile Include="Assets\Scripts\Credits.cs" />
      <Compile Include="Assets\Scripts\FacebookInvite.cs" />
      <Compile Include="Assets\Scripts\FacebookManager.cs" />
      <Compile Include="Assets\Scripts\FacebookShare.cs" />
@@ -108,6 +110,7 @@
      <Compile Include="Assets\Scripts\SocialManager.cs" />
      <Compile Include="Assets\Scripts\Title.cs" />
      <Compile Include="Assets\Scripts\Volume.cs" />
+     <Compile Include="Assets\ShowCredits.cs" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ko\common_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-el\common_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ca\common_strings.xml" />
@@ -238,15 +241,15 @@
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-et-rEE\common_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-da\common_strings.xml" />
  <Reference Include="IFacebook">
- <HintPath>C:/Users/amallonee/Documents/DA/Unity/Floppy-Clone-master/Floppy-Clone-master/Assets/Facebook/Scripts/IFacebook.dll</HintPath>
+ <HintPath>C:/Users/amallonee/Documents/DA/Unity/FloppyBunBun/FloppyBunBun/Assets/Facebook/Scripts/IFacebook.dll</HintPath>
  </Reference>
  <Reference Include="GPGSUtils">
- <HintPath>C:/Users/amallonee/Documents/DA/Unity/Floppy-Clone-master/Floppy-Clone-master/Assets/Plugins/GPGSUtils.dll</HintPath>
+ <HintPath>C:/Users/amallonee/Documents/DA/Unity/FloppyBunBun/FloppyBunBun/Assets/Plugins/GPGSUtils.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{C1B6DFDE-AAC2-B762-4191-B9C5BE698A21}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+      <Project>{E8743303-C668-9CEE-E22E-C7507F0838E9}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

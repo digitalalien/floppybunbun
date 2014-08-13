@@ -7,7 +7,7 @@ using System.Collections.Generic;
 public class SocialManager {
 
     #if UNITY_ANDROID
-        public static string leaderboardId = "CgkI-uuXy7ESEAIQAA";
+		public static string leaderboardId = "CgkIz-zNrP8bEAIQAA";
     #else
         public static string leaderboardId = "CgkI_uuXy7ESEAIQAA";
     #endif
